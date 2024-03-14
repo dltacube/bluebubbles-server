@@ -1,8 +1,6 @@
 name: "Build BlueBubbles-Server"
 
-on:
-  push:
-    branches: [ main,feature/build ]
+on: [push]
 
 jobs:
   build:
