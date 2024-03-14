@@ -1,4 +1,5 @@
 # BlueBubbles Server
+[![.github/workflows/build-bluebubbles.yml](https://github.com/dltacube/bluebubbles-server/actions/workflows/build-bluebubbles.yml/badge.svg)](https://github.com/dltacube/bluebubbles-server/actions/workflows/build-bluebubbles.yml)
 
 This is the back-end server for the BlueBubbles App. It allows you to forward your iMessages to and from an Android device via the BlueBubbles App.
 
