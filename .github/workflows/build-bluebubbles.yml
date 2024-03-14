@@ -1,0 +1,13 @@
+name: "Build BlueBubbles-Server"
+
+on:
+  workflow_dispatch:
+    branches: [ main,feature/build ]
+
+jobs:
+  build:
+    runs-on: macos-12
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build
+        run: yarn build
