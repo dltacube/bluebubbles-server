@@ -1,7 +1,7 @@
 name: "Build BlueBubbles-Server"
 
 on:
-  workflow_dispatch:
+  push:
     branches: [ main,feature/build ]
 
 jobs:
